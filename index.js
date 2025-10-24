@@ -13,6 +13,8 @@ require("./config/database").connect();
 
 const user = require("./routes/user");
 
+// cookie parser -- what is cookie parser
+
 app.use("/api/users",user);
 
 //  activate 
